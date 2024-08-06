@@ -4,6 +4,22 @@
   object-fit: contain;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1em;
+  background-color: beige;
+  padding: 1em;
+}
+
 body {
   display: flex;
   flex-direction: column;
